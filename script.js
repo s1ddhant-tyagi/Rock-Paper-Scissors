@@ -86,14 +86,14 @@ function check_score() {
         document.querySelector('.winlose').innerHTML= 'Hurray, you won! You can play again.';
         setTimeout(() => {
             window.location.reload();
-        }, 5000);
+        }, 3000);
     }
     if (computerScore === 15) {
         document.querySelector('.winlose').style.display='block';
         document.querySelector('.winlose').innerHTML= 'Oops, you lost! You can try again.';
         setTimeout(() => {
             window.location.reload();
-        }, 5000);
+        }, 3000);
     }
 }
 
