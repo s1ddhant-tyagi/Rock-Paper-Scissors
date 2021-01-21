@@ -25,6 +25,13 @@ function game(userInput) {
     computerChoiceLabel_div.innerHTML = comp;
     userChoiceLabel_div.style.display = 'block';
     computerChoiceLabel_div.style.display = 'block';
+    // var addUserChoice = document.createElement('div');
+    // addUserChoice.classList.add('chosen');
+    // addUserChoice.classList.add('user-choice-label');
+    // addUserChoice.setAttribute('data-oas','fade-right');
+    // addUserChoice.innerHTML=userInput;
+    // addUserChoice.style.display = 'block';
+    // scoreBoard_div.appendChild(addUserChoice);
     if (userInput === 'Rock') {
 
         if (comp === 'Rock')

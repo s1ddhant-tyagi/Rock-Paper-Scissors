@@ -69,14 +69,11 @@ header h1
 
 .chosen
 {
-    /* background-color: #d97a43; */
     padding: 5px 10px;
     color:  #e98c56;
     text-align: center;
     font-size: 13px;
     width: 77px;
-    /* border: 2px solid white; */
-    /* border-radius: 2px; */
     display: none;
     font-weight: bold;
 }
@@ -84,15 +81,15 @@ header h1
 .user-choice-label
 {
     position: absolute;
-    top: 24px;
-    left: -120px;
+    top: 100px;
+    left: 42px;
 }
 
 .computer-choice-label
 {
     position: absolute;
-    top: 24px;
-    right: -120px;
+    top: 100px;
+    right: 42px;
 }
 
 .score-container
@@ -172,4 +169,25 @@ header h1
     margin-top: 30px;
     color: #e98c56;
     font-family: 'Asap';
+}
+
+footer
+{
+    background-color: azure;
+    padding: 7px 0;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+} 
+
+footer p 
+{
+    color: rgb(49, 47, 82);
+    font-family: 'Asap';
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    background-color: azure;
+    font-size: 20px;
+    font-weight: bold;
 }
